@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certificate & Online Programs For 2023</h1>
+      </section>
+
+   <!------ blog page content --------->
+ 
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>"Education refers to ‘the process of providing and receiving instructions, through academic and scholastic efforts."</p>
+                <br>
+                <p>Education is a very powerful medium to grow in life and perceive something important. In a human’s life, education benefits a lot in decreasing the difficulties of a hard life. The expertise obtained through the education era encourages everybody regarding their life.Education is a way to enter into several doors for possibilities to obtain more real prospects in life to improve career growth. Government is also arranging various programs to educate everyone about education and its benefits in our life especially in rural areas. Education delivers knowledge of equality among everyone in society and encourages the growth and improvement of the nation</p>
+                <br>
+                <p>Education expands the creativity of people on a massive scale and benefits them to overcome all the diversity in the nation. It allows us to study properly and know every phase of life. Education gives the sense to know all human liberties, social freedoms, responsibilities, and obligations towards the nation. In short, education has the power to reform a nation in the best way.</p>
+                <br>
+                <p>A reliable education provides many purposes to life like an individual improvement, increase of social situation, development in social well-being, financial growth, prosperity to the country, establishing life purposes, informing us of many social concerns, and determining the circumstances to offer best solutions for any issue and other relevant matters.</p>
+
+                <div class="comment-box">
+
+                  <h3>Leave a comment</h3>
+                  <form class="commment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                  </form>
+                  
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div><div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>34</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!------ Footer --------->
+
+    <section class="footer">
+    <h4>About US</h4>
+    <p>"The best part about having true friends is that you can go months without seeing them and they’ll still be there for you and act as if you’d never left!.<br>Looking back is a way to sharpen the focus on the things you want to change in your life.”</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i> by Sachin Yadav</p>
+    </section>
+
+
+
+ <!------JavaScript for Toogle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>    
+</html>
